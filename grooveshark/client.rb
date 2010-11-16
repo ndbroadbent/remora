@@ -12,9 +12,9 @@ class Client
   attr_accessor :session, :comm_token, :queue, :now_playing, :player, :display, :use_aoss
   attr_reader :user, :sock, :secure_sock, :volume
 
-  UUID = '996A915E-4C56-6BE2-C59F-96865F748EAE'
+  UUID = 'BE233871-D85A-1EFF-ED04-54D565F389F4'
   CLIENT = 'gslite'
-  CLIENT_REV = '20100412.09'
+  CLIENT_REV = '20101012.24'
 
   # "country":{"CC1":"0","CC3":"0","ID":"223","CC2":"0","CC4":"1073741824"}
 
